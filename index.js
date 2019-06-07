@@ -4,7 +4,7 @@ function updateDriverWithKeyAndValue(driver, key, value){
   const newdriver={}
   newdriver[key] = value;
  
-  return newdriver;
+  return driver;
 }
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value){
   driver[key] = value;
