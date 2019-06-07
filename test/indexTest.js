@@ -64,7 +64,7 @@ describe('drivers', function () {
     });
 
     it('modifies the original driver', function () {
-      let driver = destructivelyDeleteFromDriverByKey(driver, 'name');
+      let newdriver = destructivelyDeleteFromDriverByKey(driver, 'name');
 
       expect(driver['name']).to.equal(undefined);
     });
