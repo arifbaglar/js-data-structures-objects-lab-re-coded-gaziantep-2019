@@ -6,3 +6,9 @@ function updateDriverWithKeyAndValue(driver, key, value){
  
   return newdriver;
 }
+function updateDriverWithKeyAndValue(driver, key, value){
+  const newdriver={}
+  newdriver[key] = value;
+ 
+  return newdriver;
+}
